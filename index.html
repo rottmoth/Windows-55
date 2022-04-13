@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WINDOWS 55</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+ 
+
+<body onload="startTime()">
+<!--credit goes to user: oldwindowsicons
+https://oldwindowsicons.tumblr.com/post/651560641420754944/internet-connection-wizard-->
+        <img class="img-trash" src="images/trash.png"  onclick="window.open('trash.html','popUpWindow','height=400,width=600,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=no');">
+        <p>trash bin</p>
+        <br>
+<!--credit goes to user:oldwindowsicons
+https://oldwindowsicons.tumblr.com/post/651560641420754944/internet-connection-wizard-->
+        <img class="img-internet" src="images/internet earth.png"  onclick="window.open('internet.html','popUpWindow','height=600,width=970,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=no');">
+        <p>internet</p>
+        <br>
+<!--credit goes to user: oldwindowsicons
+https://oldwindowsicons.tumblr.com/post/651478108693774336/windows-98-folder -->
+        <img class="img-files" src="images/files.png"  onclick="window.open('files.html','popUpWindow','height=455,width=600,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=no');">
+        <p>files</p>
+        <br>
+<!--credit goes to user: oldwindowsicons
+https://oldwindowsicons.tumblr.com/post/651808431972483072/windows-95-pifmgrdll-021-->
+        <img class="img-window" src="images/window.png"  onclick="window.open('minesweeper.html','popUpWindow','height=600,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=no');">
+        <p>minesweeper</p>
+        <br>
+<!--credit goes to user: oldwindowsicons
+https://oldwindowsicons.tumblr.com/post/665141390569865216/adobe-photoshop-60-->
+        <img class="img-eye" src="images/eye.png"  onclick="window.open('eye.html','popUpWindow','height=200,width=270,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=no');">
+        <p>do not click.</p>
+
+
+        <div id="music"><iframe style="" src="https://open.spotify.com/embed/playlist/6rMVjVzWJbY2heTQm4sVyS?utm_source=generator" width="100%" 
+        height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
+
+
+        
+        
+
+        
+
+        
+<footer onload="startTime()">
+        <!--png is by user d52af1
+        http://pixelartmaker.com/art/2e2c18b80ef8edc-->
+        <img class="img-start" src="images/start.jpg" alt="">
+       
+        <div id="txt"></div>
+
+        <script>
+        function startTime() {
+          const today = new Date();
+          let h = today.getHours();
+          let m = today.getMinutes();
+          let s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+          setTimeout(startTime, 1000);
+        }
+        
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i}; 
+          return i;
+        }
+        
+        </script>
+        </footer>
+        <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/food/foo-6/foo507.ani), url(https://cur.cursors-4u.net/food/foo-6/foo507.png), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2011/11/28/lucky-charms-rainbow.html" target="_blank" title="Lucky Charms Rainbow"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Lucky Charms Rainbow" style="position:absolute; top: 0px; right: 0px;" /></a>
+    
+
+   
+    
+</body>
+</html>

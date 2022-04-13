@@ -1,0 +1,104 @@
+html, body{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+/*background image credit goes to username: surferrosaluxembourg
+ https://imgur.com/a/BmMyOOX*/
+    background-image: url("../images/bg_1.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 80%;
+    overflow: hidden ;
+
+
+}
+.trashbg{background-image: url("../images/trash-bin.gif");
+    background-size: 100vh 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+
+}
+body{
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    width: 100vw;
+    
+}
+
+p{
+    color:rgb(255, 255, 255);
+    padding: 4px;
+    margin:0px;
+}
+
+img{
+    padding: 0px;
+    margin:0px;
+}
+
+.img-trash{
+    width: 75px;
+}
+
+.img-internet{
+    width: 75px;
+}
+
+.img-files{
+    width: 75px;
+}
+
+.img-window{
+    width: 75px;
+}
+
+.img-eye{
+    width: 75px;
+}
+
+.img-with-text {
+    text-align: center;
+    width: 75px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    position:absolute; 
+  bottom:0; 
+  width:100vw; 
+  height:35px;
+    font-size: 24px;
+    background-color: rgb(192,192,192,255);
+    padding: 0px;
+
+}
+
+.img-start{
+    width: 325px;
+    height: 35px
+}
+
+#txt{
+    position: absolute;
+    bottom: 10px;
+    right:15px;
+
+}
+
+
+
+#music {
+    position: absolute;
+    top: 10px;
+    right:15px;
+}
+  
